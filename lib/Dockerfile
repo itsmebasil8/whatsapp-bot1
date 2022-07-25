@@ -1,4 +1,4 @@
-FROM quay.io/itsmebasil8/raganork:multidevice
+FROM quay.io/souravkl11/raganork:multidevice
 
 RUN git clone https://github.com/itsmebasil8/raganork-md /itsmebasil8/raganork-md
 WORKDIR /itsmebasil8/raganork-md
