@@ -1,7 +1,7 @@
-FROM quay.io/souravkl11/raganork:multidevice
+FROM quay.io/itsmebasil8/raganork:multidevice
 
-RUN git clone https://github.com/souravkl11/raganork-md /skl/Raganork
-WORKDIR /skl/Raganork
+RUN git clone https://github.com/itsmebasil8/raganork-md /itsmebasil8/raganork-md
+WORKDIR /itsmebasil8/raganork-md
 ENV TZ=Asia/Kolkata
 RUN npm install supervisor -g
 RUN yarn install --ignore-engines
